@@ -2,8 +2,8 @@
 
 **Programas necessários:** 
 
-- pgAdmin - <https://www.pgadmin.org/> (preferencialmente última versão);
-- Postgresql - <https://www.postgresql.org/>;
+- pgAdmin - <https://www.pgadmin.org/>; 
+- Postgresql - <https://www.postgresql.org/> (preferencialmente última versão);
 - Node.js -  <https://nodejs.org/en/download/>;
 - Yarn - "npm i  -g yarn".
 - Concurrently - "npm i -g concurrently"
@@ -12,7 +12,7 @@
 
 - Crie um banco de dados no postgres chamado "tech4humans".
 
-**Refernete a instalação do App:**
+**Referente a instalação do App:**
 
 - Faça o download do arquivo ZIP do projeto;
 - Abra o terminal e direcioná-lo para o caminho do projeto;
@@ -24,3 +24,7 @@
 **Execução do projeto:** 
 
 - Estando na raiz do projeto: ‘teste-programacao-main/’, insira o comando "yarn start" no terminal. 
+
+**Observações**
+
+- Respeitando o prazo ofertado para realização desse projeto, as componentes foram criadas com enfoque nas funcionalidades primordiais, especialmente para o ambiente DESKTOP. Logo a interface ainda não está otimizada para aparelhos Mobile.
