@@ -1,37 +1,26 @@
-//imports do React
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import Search from "./components/Search/Search";
+import History from "./components/History/History";
 
-//imports de estilos
-import './App.css';
+import "./App.css";
 
-//imports dos componentes
-import Search from './components/Search';
-import City from './components/City';
+/**
+ * @export
+ * @component
+ * @name App
+ *
+ * @description
+ * Responsável por englobar as componentes que fazem parte da aplicação
+ */
+const App = () => {
+  const [update, setUpdate] = useState(false);
 
-const App = () =>{
-
-  const [cities, setCities] = useState([
-    { 
-      name: 'Pedralva',
-      country: 'Brasil',
-      temperature: 19,
-      humidity: 93, 
-      weather: 'Chuva Forte'
-    },
-    { 
-      name: 'Itajubá',
-      country: 'Brasil',
-      temperature: 19,
-      humidity: 93, 
-      weather: 'Chuva Forte'
-    }
-  ]);
-
-  return(
+  return (
     <div className="container">
-      <Search />
-      <City cities = {cities} />
+      <Search update={update} onUpdate={setUpdate} />
+      <History update={update} />
     </div>
   );
 };
+
 export default App;
