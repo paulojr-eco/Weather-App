@@ -6,7 +6,7 @@
 - Postgresql - <https://www.postgresql.org/>;
 - Node.js -  <https://nodejs.org/en/download/>;
 - Yarn - "npm i  -g yarn".
-- Concurrently - npm i -g concurrently
+- Concurrently - "npm i -g concurrently"
 
 **Referente ao Banco de Dados:** 
 
