@@ -13,7 +13,7 @@
 
 **Refernete a instalação do App:**
 
-- Faça o download do arquivo clone do projeto;
+- Faça o download do arquivo ZIP do projeto;
 - Abra o terminal e direcioná-lo para o caminho do projeto;
 - Entre na pasta do projeto – *cd app*;
 - Finalmente instale o projeto pelo comando: *yarn install*;
