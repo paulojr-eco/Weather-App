@@ -16,7 +16,7 @@
 
 - Faça o download do arquivo ZIP do projeto;
 - Abra o terminal e direcioná-lo para o caminho do projeto;
-- Entre na pasta do projeto – *cd teste-programacao-main*;
+- Entre na pasta do projeto – *cd tech4humans-main*;
 - Finalmente instale o projeto pelo comando: *yarn install*;
 - Altere a variável "password", presente na linha 7 do arquivo situado no diretório: “app/src/server/dataBase”, para a senha definida por você na criação do banco de dados no postgresql;
 - O arquivo presente em: “app/src/server/API” contém a url correspondente ao servidor. Altere-a caso necessário. 
